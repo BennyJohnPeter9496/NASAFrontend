@@ -1,0 +1,239 @@
+﻿{
+    "voyager-1":  {
+                      "badge":  {
+                                    "name":  "Interstellar Voyager",
+                                    "emoji":  "ðŸš€"
+                                },
+                      "steps":  [
+                                    {
+                                        "id":  "launch",
+                                        "title":  "Liftoff, 1977",
+                                        "text":  {
+                                                     "student":  "Voyager 1 launched on 5 September 1977 on a Titan IIIE rocket, timed to use the outer planets\u0027 rare alignment for gravity assists.",
+                                                     "explorer":  "Launched on a Titan IIIE-Centaur from Cape Canaveral, Voyager 1 was set on a fast trajectory that reached Jupiter in just 18 months."
+                                                 },
+                                        "camera":  {
+                                                       "target":  "earth",
+                                                       "distance":  6,
+                                                       "azimuth":  30,
+                                                       "elevation":  20
+                                                   }
+                                    },
+                                    {
+                                        "id":  "jupiter",
+                                        "title":  "Jupiter, 1979",
+                                        "text":  {
+                                                     "student":  "In March 1979 Voyager 1 flew by Jupiter and discovered active volcanoes on the moon Io, the first seen anywhere beyond Earth.",
+                                                     "explorer":  "Jupiter\u0027s gravity gave Voyager 1 a large speed boost. Its cameras caught nine erupting volcanoes on Io and revealed a faint ring around Jupiter."
+                                                 },
+                                        "camera":  {
+                                                       "target":  "jupiter",
+                                                       "distance":  9,
+                                                       "azimuth":  40,
+                                                       "elevation":  15
+                                                   }
+                                    },
+                                    {
+                                        "id":  "saturn",
+                                        "title":  "Saturn, 1980",
+                                        "text":  {
+                                                     "student":  "In November 1980 Voyager 1 explored Saturn\u0027s rings and flew close to Titan. Titan\u0027s gravity then flung the probe up and out of the planets\u0027 plane.",
+                                                     "explorer":  "The Titan flyby at about 6,500 km showed a thick, hazy nitrogen atmosphere, but bent Voyager 1\u0027s path north of the ecliptic, ending its planet tour."
+                                                 },
+                                        "camera":  {
+                                                       "target":  "saturn",
+                                                       "distance":  10,
+                                                       "azimuth":  -30,
+                                                       "elevation":  20
+                                                   }
+                                    },
+                                    {
+                                        "id":  "pale-blue-dot",
+                                        "title":  "Pale Blue Dot, 1990",
+                                        "text":  {
+                                                     "student":  "On 14 February 1990, from about 40 AU away, Voyager 1 took the Pale Blue Dot photo, in which Earth is less than one pixel wide.",
+                                                     "explorer":  "The Family Portrait mosaic of 60 frames was taken from about 6 billion km. Earth covers only 0.12 pixels, a speck inside a scattered sunbeam. The cameras were switched off soon after."
+                                                 },
+                                        "camera":  {
+                                                       "target":  "earth",
+                                                       "distance":  55,
+                                                       "azimuth":  160,
+                                                       "elevation":  25
+                                                   }
+                                    },
+                                    {
+                                        "id":  "interstellar",
+                                        "title":  "Interstellar space, 2012",
+                                        "text":  {
+                                                     "student":  "On 25 August 2012 Voyager 1 crossed the heliopause and became the first human-made object in interstellar space. It still sends data home.",
+                                                     "explorer":  "Plasma waves excited by a solar outburst let the Plasma Wave instrument measure a density about 40 times higher than inside the heliosphere, proving the crossing. Its radio signal needs about 23 hours to reach us."
+                                                 },
+                                        "camera":  {
+                                                       "target":  "voyager-1",
+                                                       "distance":  3,
+                                                       "azimuth":  150,
+                                                       "elevation":  20
+                                                   }
+                                    }
+                                ]
+                  },
+    "curiosity":  {
+                      "badge":  {
+                                    "name":  "Mars Explorer",
+                                    "emoji":  "ðŸ”´"
+                                },
+                      "steps":  [
+                                    {
+                                        "id":  "launch",
+                                        "title":  "Launch, 2011",
+                                        "text":  {
+                                                     "student":  "Curiosity launched on 26 November 2011 on an Atlas V rocket and cruised for about eight months.",
+                                                     "explorer":  "The Atlas V 541 sent Curiosity on a roughly 560 million km trajectory, with trajectory correction manoeuvres to hit a small target ellipse in Gale Crater."
+                                                 },
+                                        "camera":  {
+                                                       "target":  "earth",
+                                                       "distance":  6,
+                                                       "azimuth":  -40,
+                                                       "elevation":  20
+                                                   }
+                                    },
+                                    {
+                                        "id":  "landing",
+                                        "title":  "Sky crane landing, 2012",
+                                        "text":  {
+                                                     "student":  "On 6 August 2012 Curiosity touched down in Gale Crater. A rocket-powered sky crane lowered it on cables, because it was too heavy for airbags.",
+                                                     "explorer":  "The entry, descent and landing took about seven minutes, nicknamed the seven minutes of terror, and had to run fully autonomously because signals took about 14 minutes to reach Earth."
+                                                 },
+                                        "camera":  {
+                                                       "target":  "mars",
+                                                       "distance":  4,
+                                                       "azimuth":  30,
+                                                       "elevation":  25
+                                                   }
+                                    },
+                                    {
+                                        "id":  "gale",
+                                        "title":  "Exploring Gale Crater",
+                                        "text":  {
+                                                     "student":  "Gale Crater is about 154 km wide and has a mountain about 5 km tall, Mount Sharp, at its centre. Its layers record a long history of Mars.",
+                                                     "explorer":  "Orbital data showed that Mount Sharp\u0027s layered sediments change from clays to sulfates, a record of Mars drying out. This gave Curiosity a natural time machine to drive up."
+                                                 },
+                                        "camera":  {
+                                                       "target":  "curiosity",
+                                                       "distance":  0.36,
+                                                       "azimuth":  40,
+                                                       "elevation":  30,
+                                                       "facing":  "mars"
+                                                   }
+                                    },
+                                    {
+                                        "id":  "lake",
+                                        "title":  "An ancient lake, 2013",
+                                        "text":  {
+                                                     "student":  "At Yellowknife Bay, Curiosity drilled mudstone and found clay minerals and key elements for life. Long ago it was a freshwater lake.",
+                                                     "explorer":  "Drilled samples at John Klein showed sulfur, nitrogen, hydrogen, oxygen, phosphorus and carbon, in a mild, freshwater environment that could have supported microbes."
+                                                 },
+                                        "camera":  {
+                                                       "target":  "curiosity",
+                                                       "distance":  0.28,
+                                                       "azimuth":  "-50",
+                                                       "elevation":  35,
+                                                       "facing":  "mars"
+                                                   }
+                                    },
+                                    {
+                                        "id":  "climb",
+                                        "title":  "Still climbing",
+                                        "text":  {
+                                                     "student":  "More than a decade later Curiosity is still climbing Mount Sharp, and has found organic molecules and layers shaped by ancient water.",
+                                                     "explorer":  "Powered by its MMRTG, Curiosity has driven over 30 km. It continues to sample strata and measures seasonal methane changes in Gale Crater\u0027s air."
+                                                 },
+                                        "camera":  {
+                                                       "target":  "curiosity",
+                                                       "distance":  0.5,
+                                                       "azimuth":  200,
+                                                       "elevation":  40,
+                                                       "facing":  "mars"
+                                                   }
+                                    }
+                                ]
+                  },
+    "cassini":  {
+                    "badge":  {
+                                  "name":  "Saturn Scout",
+                                  "emoji":  "ðŸª"
+                              },
+                    "steps":  [
+                                  {
+                                      "id":  "launch",
+                                      "title":  "Launch, 1997",
+                                      "text":  {
+                                                   "student":  "Cassini-Huygens launched on 15 October 1997 on a Titan IVB rocket, and used gravity assists from Venus, Earth and Jupiter to reach Saturn.",
+                                                   "explorer":  "It was too heavy for a direct route, so it used a Venus-Venus-Earth-Jupiter gravity-assist trajectory to arrive in 2004."
+                                               },
+                                      "camera":  {
+                                                     "target":  "earth",
+                                                     "distance":  6,
+                                                     "azimuth":  70,
+                                                     "elevation":  20
+                                                 }
+                                  },
+                                  {
+                                      "id":  "arrival",
+                                      "title":  "Arriving at Saturn, 2004",
+                                      "text":  {
+                                                   "student":  "On 1 July 2004 Cassini crossed the gap between two of Saturn\u0027s rings, then fired its engine for about 96 minutes to be captured by Saturn\u0027s gravity.",
+                                                   "explorer":  "The Saturn Orbit Insertion burn slowed Cassini by about 626 m/s. It was a one-chance manoeuvre, performed right after the ring-plane crossing between the F and G rings."
+                                               },
+                                      "camera":  {
+                                                     "target":  "saturn",
+                                                     "distance":  11,
+                                                     "azimuth":  20,
+                                                     "elevation":  25
+                                                 }
+                                  },
+                                  {
+                                      "id":  "titan",
+                                      "title":  "Huygens lands on Titan, 2005",
+                                      "text":  {
+                                                   "student":  "On 14 January 2005 the Huygens probe landed on Titan, the first landing in the outer solar system, and sent back pictures from the surface.",
+                                                   "explorer":  "Huygens descended through Titan\u0027s thick nitrogen haze for about 2.5 hours and transmitted for about 72 minutes after landing. Cassini later mapped Titan\u0027s methane and ethane lakes by radar."
+                                               },
+                                      "camera":  {
+                                                     "target":  "cassini",
+                                                     "distance":  1.6,
+                                                     "azimuth":  "-40",
+                                                     "elevation":  20
+                                                 }
+                                  },
+                                  {
+                                      "id":  "enceladus",
+                                      "title":  "Geysers on Enceladus",
+                                      "text":  {
+                                                   "student":  "Cassini discovered jets of water ice from Enceladus\u0027s south pole, and flew through them to find salty water and organic molecules.",
+                                                   "explorer":  "Cassini flew through the plume and detected sodium salts, silica nanograins and molecular hydrogen, which suggests hydrothermal activity on the seafloor of a subsurface ocean."
+                                               },
+                                      "camera":  {
+                                                     "target":  "cassini",
+                                                     "distance":  1.2,
+                                                     "azimuth":  90,
+                                                     "elevation":  10
+                                                 }
+                                  },
+                                  {
+                                      "id":  "finale",
+                                      "title":  "Grand Finale, 2017",
+                                      "text":  {
+                                                   "student":  "On 15 September 2017 Cassini ended its mission by plunging into Saturn\u0027s atmosphere, so it could not contaminate Enceladus or Titan.",
+                                                   "explorer":  "After 22 dives between Saturn and its rings, Cassini kept transmitting science data until its final seconds, a planned end that protects moons that may be habitable."
+                                               },
+                                      "camera":  {
+                                                     "target":  "saturn",
+                                                     "distance":  8,
+                                                     "azimuth":  200,
+                                                     "elevation":  55
+                                                 }
+                                  }
+                              ]
+                }
+}

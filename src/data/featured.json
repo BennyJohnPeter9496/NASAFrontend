@@ -1,0 +1,18 @@
+[
+  { "noradId": 25544, "label": "International Space Station", "model": "iss", "size": 0.14 },
+  { "noradId": 20580, "label": "Hubble Space Telescope", "model": "hubble", "size": 0.12 },
+  { "noradId": 50463, "label": "James Webb Space Telescope", "model": "jwst", "size": 0.14 },
+  { "noradId": 48274, "label": "Tiangong space station", "model": "tiangong", "size": 0.12 },
+  { "noradId": 25867, "label": "Chandra X-ray Observatory", "model": "chandra", "size": 0.12 },
+  { "noradId": 25994, "label": "Terra", "model": "earthObserver", "size": 0.1 },
+  { "noradId": 27424, "label": "Aqua", "model": "earthObserver", "size": 0.1 },
+  { "noradId": 27386, "label": "Envisat", "model": "earthObserver", "size": 0.11 },
+  { "noradId": 39084, "label": "Landsat 8", "model": "earthObserver", "size": 0.09 },
+  { "noradId": 39479, "label": "Gaia", "model": "gaia", "size": 0.12 },
+  { "noradId": 23726, "label": "SOHO", "model": "orbiter", "size": 0.09 },
+  { "noradId": 35315, "label": "Lunar Reconnaissance Orbiter", "model": "orbiter", "size": 0.06 },
+  { "noradId": 44441, "label": "Chandrayaan-2 orbiter", "model": "orbiter", "size": 0.06 },
+  { "noradId": 39378, "label": "MAVEN", "model": "orbiter", "size": 0.08 },
+  { "noradId": 27816, "label": "Mars Express", "model": "orbiter", "size": 0.08 },
+  { "noradId": 45935, "label": "Tianwen-1 orbiter", "model": "orbiter", "size": 0.08 }
+]

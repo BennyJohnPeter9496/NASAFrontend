@@ -1,0 +1,254 @@
+{
+  "moon": {
+    "label": "The Moon",
+    "sites": [
+      {
+        "id": "luna-9",
+        "name": "Luna 9",
+        "place": "Oceanus Procellarum",
+        "lat": 7.08,
+        "lon": -64.37,
+        "date": "1966-02-03",
+        "agency": "USSR",
+        "kind": "Lander",
+        "text": {
+          "student": "On 3 February 1966 the Soviet probe Luna 9 made the first controlled soft landing on the Moon and sent back photographs of the surface, showing it was firm enough for landers.",
+          "explorer": "Luna 9's capsule bounced and rolled after touchdown before settling in Oceanus Procellarum. Its panoramic pictures helped settle fears that landers would sink into deep lunar dust."
+        }
+      },
+      {
+        "id": "apollo-11",
+        "name": "Apollo 11",
+        "place": "Sea of Tranquility",
+        "lat": 0.67,
+        "lon": 23.47,
+        "date": "1969-07-20",
+        "agency": "NASA",
+        "kind": "Crewed landing",
+        "objectId": "apollo-11",
+        "text": {
+          "student": "Neil Armstrong and Buzz Aldrin landed the lunar module Eagle in the Sea of Tranquility on 20 July 1969 and spent about two and a half hours outside.",
+          "explorer": "Eagle touched down with Armstrong flying manually past a boulder field. The crew left a laser retroreflector that scientists still use to measure the Earth-Moon distance."
+        }
+      },
+      {
+        "id": "apollo-12",
+        "name": "Apollo 12",
+        "place": "Ocean of Storms",
+        "lat": -3.01,
+        "lon": -23.42,
+        "date": "1969-11-19",
+        "agency": "NASA",
+        "kind": "Crewed landing",
+        "text": {
+          "student": "Pete Conrad and Alan Bean made a precision landing in the Ocean of Storms, within walking distance of the Surveyor 3 probe, and returned parts of it to study how materials age on the Moon.",
+          "explorer": "Surveyor 3 had sat on the surface for about 31 months. Conrad and Bean retrieved its camera and tubing and set up the first nuclear-powered ALSEP science station."
+        }
+      },
+      {
+        "id": "apollo-14",
+        "name": "Apollo 14",
+        "place": "Fra Mauro highlands",
+        "lat": -3.65,
+        "lon": -17.47,
+        "date": "1971-02-05",
+        "agency": "NASA",
+        "kind": "Crewed landing",
+        "text": {
+          "student": "Apollo 14 landed in the Fra Mauro highlands, the target of the cancelled Apollo 13. Alan Shepard famously hit two golf balls with a makeshift club.",
+          "explorer": "Shepard and Edgar Mitchell collected about 42 kg of samples from the Fra Mauro formation, which is thought to be debris thrown out by the Imbrium basin impact."
+        }
+      },
+      {
+        "id": "apollo-15",
+        "name": "Apollo 15",
+        "place": "Hadley-Apennine",
+        "lat": 26.13,
+        "lon": 3.63,
+        "date": "1971-07-30",
+        "agency": "NASA",
+        "kind": "Crewed landing",
+        "text": {
+          "student": "Apollo 15 landed beside Hadley Rille and was the first mission to use the battery-powered Lunar Roving Vehicle, which let astronauts travel far from the lander.",
+          "explorer": "David Scott and James Irwin spent about 18.5 hours outside over three moonwalks, drove roughly 28 km, and recovered the anorthosite nicknamed the Genesis Rock."
+        }
+      },
+      {
+        "id": "apollo-16",
+        "name": "Apollo 16",
+        "place": "Descartes Highlands",
+        "lat": -8.97,
+        "lon": 15.5,
+        "date": "1972-04-21",
+        "agency": "NASA",
+        "kind": "Crewed landing",
+        "text": {
+          "student": "John Young and Charlie Duke made the only Apollo landing in the lunar highlands, to study the oldest parts of the Moon's crust.",
+          "explorer": "The crew returned about 95 kg of samples. The highlands rocks were mostly impact breccias rather than the volcanic rocks scientists had expected."
+        }
+      },
+      {
+        "id": "apollo-17",
+        "name": "Apollo 17",
+        "place": "Taurus-Littrow valley",
+        "lat": 20.19,
+        "lon": 30.77,
+        "date": "1972-12-11",
+        "agency": "NASA",
+        "kind": "Crewed landing",
+        "text": {
+          "student": "Gene Cernan and geologist Harrison Schmitt were the last people to walk on the Moon, exploring the Taurus-Littrow valley.",
+          "explorer": "Over three moonwalks totalling more than 22 hours they collected about 110 kg of samples, including orange volcanic glass soil spotted by Schmitt."
+        }
+      },
+      {
+        "id": "change-4",
+        "name": "Chang'e 4",
+        "place": "Von Karman crater (far side)",
+        "lat": -45.46,
+        "lon": 177.59,
+        "date": "2019-01-03",
+        "agency": "CNSA",
+        "kind": "Lander and rover",
+        "text": {
+          "student": "China's Chang'e 4 made the first soft landing on the Moon's far side and deployed the Yutu-2 rover.",
+          "explorer": "The far side has no line of sight to Earth, so Chang'e 4 talks through the Queqiao relay satellite near the Earth-Moon L2 point."
+        }
+      },
+      {
+        "id": "chandrayaan-3",
+        "name": "Chandrayaan-3",
+        "place": "Near the south pole",
+        "lat": -69.37,
+        "lon": 32.32,
+        "date": "2023-08-23",
+        "agency": "ISRO",
+        "kind": "Lander and rover",
+        "text": {
+          "student": "Chandrayaan-3 was the first mission to soft-land near the lunar south pole. Its Vikram lander released the Pragyan rover.",
+          "explorer": "It landed near 69.4 degrees south, closer to the pole than any earlier successful landing, close to craters in permanent shadow that may hold water ice."
+        }
+      }
+    ]
+  },
+  "mars": {
+    "label": "Mars",
+    "sites": [
+      {
+        "id": "viking-1",
+        "name": "Viking 1",
+        "place": "Chryse Planitia",
+        "lat": 22.27,
+        "lon": -47.97,
+        "date": "1976-07-20",
+        "agency": "NASA",
+        "kind": "Lander",
+        "text": {
+          "student": "Viking 1 landed in Chryse Planitia on 20 July 1976, photographed the surface and ran experiments looking for signs of life. It kept working for more than six years.",
+          "explorer": "Its biology experiments gave ambiguous results that most scientists now attribute to reactive soil chemistry rather than living organisms."
+        }
+      },
+      {
+        "id": "pathfinder",
+        "name": "Mars Pathfinder",
+        "place": "Ares Vallis",
+        "lat": 19.13,
+        "lon": -33.22,
+        "date": "1997-07-04",
+        "agency": "NASA",
+        "kind": "Lander and rover",
+        "text": {
+          "student": "Pathfinder landed with airbags on 4 July 1997 and carried Sojourner, the first wheeled rover to operate on Mars.",
+          "explorer": "Sojourner weighed about 10.5 kg and operated for 83 sols, far longer than its planned 7."
+        }
+      },
+      {
+        "id": "spirit",
+        "name": "Spirit",
+        "place": "Gusev crater",
+        "lat": -14.57,
+        "lon": 175.47,
+        "date": "2004-01-04",
+        "agency": "NASA",
+        "kind": "Rover",
+        "text": {
+          "student": "Spirit landed in Gusev crater on 4 January 2004 and found silica-rich deposits that point to past water. It worked until 2010.",
+          "explorer": "Spirit's wheel dragged up bright silica-rich soil, which usually forms in hot springs or steam vents, a sign of past water and heat."
+        }
+      },
+      {
+        "id": "opportunity",
+        "name": "Opportunity",
+        "place": "Meridiani Planum",
+        "lat": -1.95,
+        "lon": -5.53,
+        "date": "2004-01-25",
+        "agency": "NASA",
+        "kind": "Rover",
+        "objectId": "opportunity",
+        "text": {
+          "student": "Opportunity landed in Meridiani Planum and found hematite spheres and rocks shaped by water. A giant dust storm ended the mission in 2018.",
+          "explorer": "It drove 45.16 km, further than any other vehicle on another world, and found evidence of acidic groundwater at Meridiani."
+        }
+      },
+      {
+        "id": "curiosity",
+        "name": "Curiosity",
+        "place": "Gale Crater",
+        "lat": -4.59,
+        "lon": 137.44,
+        "date": "2012-08-06",
+        "agency": "NASA",
+        "kind": "Rover",
+        "objectId": "curiosity",
+        "text": {
+          "student": "Curiosity was lowered by a sky crane into Gale Crater and found that an ancient lake here had the ingredients life needs.",
+          "explorer": "It is exploring the layers of Mount Sharp, whose sediments change from clays to sulfates as Mars dried out."
+        }
+      },
+      {
+        "id": "insight",
+        "name": "InSight",
+        "place": "Elysium Planitia",
+        "lat": 4.5,
+        "lon": 135.62,
+        "date": "2018-11-26",
+        "agency": "NASA",
+        "kind": "Lander",
+        "text": {
+          "student": "InSight placed the first seismometer on the surface of Mars to study the planet's interior.",
+          "explorer": "It detected more than 1,300 marsquakes and measured the crust, mantle and core before dust on its solar panels ended the mission in December 2022."
+        }
+      },
+      {
+        "id": "perseverance",
+        "name": "Perseverance and Ingenuity",
+        "place": "Jezero Crater",
+        "lat": 18.44,
+        "lon": 77.45,
+        "date": "2021-02-18",
+        "agency": "NASA",
+        "kind": "Rover and helicopter",
+        "objectId": "perseverance",
+        "text": {
+          "student": "Perseverance landed in an ancient river delta and is sealing rock samples in tubes. Ingenuity made the first powered flight on another planet.",
+          "explorer": "Jezero held a lake and delta billions of years ago, making its deposits a good place to look for signs of past microbial life."
+        }
+      },
+      {
+        "id": "zhurong",
+        "name": "Zhurong",
+        "place": "Utopia Planitia",
+        "lat": 25.07,
+        "lon": 109.93,
+        "date": "2021-05-14",
+        "agency": "CNSA",
+        "kind": "Rover",
+        "text": {
+          "student": "Zhurong landed in Utopia Planitia with the Tianwen-1 mission and studied the surface with ground-penetrating radar.",
+          "explorer": "It went into planned hibernation in May 2022 for the Martian winter and has not resumed operations."
+        }
+      }
+    ]
+  }
+}

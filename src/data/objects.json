@@ -1,0 +1,168 @@
+[
+  {
+    "id": "voyager-1",
+    "name": "Voyager 1",
+    "type": "Interstellar probe",
+    "status": "talking",
+    "launchDate": "1977-09-05",
+    "distanceFromEarthAU": 170,
+    "position": [72, 14, -36],
+    "color": "#ffd166",
+    "discovery": "First human-made object to enter interstellar space (2012).",
+    "isSpotlight": true,
+    "text": {
+      "student": "Launched in 1977, Voyager 1 flew past Jupiter (1979) and Saturn (1980), then kept going. In August 2012 it crossed the heliopause, the edge of the Sun's bubble of solar wind, and entered interstellar space. It is the most distant human-made object and still returns data from a few working instruments.",
+      "explorer": "Voyager 1 crossed the heliopause in August 2012 at about 121 AU, confirmed by a jump in plasma density measured by its Plasma Wave Subsystem. Its RTGs lose roughly 4 watts of power per year, so engineers switch off instruments and heaters one by one to stretch its life. It talks to the Deep Space Network at about 160 bits per second, with a one-way light time of roughly 23 hours."
+    }
+  },
+  {
+    "id": "voyager-2",
+    "name": "Voyager 2",
+    "type": "Interstellar probe",
+    "status": "talking",
+    "launchDate": "1977-08-20",
+    "distanceFromEarthAU": 142,
+    "position": [-42, -14, 44],
+    "color": "#ff9f68",
+    "discovery": "The only spacecraft ever to visit Uranus and Neptune.",
+    "isSpotlight": false,
+    "text": {
+      "student": "Launched 16 days before Voyager 1, Voyager 2 toured Jupiter (1979), Saturn (1981), Uranus (1986) and Neptune (1989) using a rare alignment of the planets. It entered interstellar space in November 2018. It remains the only spacecraft to have visited Uranus and Neptune.",
+      "explorer": "Voyager 2 used a gravity assist at each giant planet, a Grand Tour alignment that comes around about once every 175 years. It discovered 10 new moons at Uranus, Neptune's Great Dark Spot and geysers on Triton. It crossed the heliopause at about 119 AU in November 2018, and its working plasma instrument measured the transition directly."
+    }
+  },
+  {
+    "id": "pioneer-10",
+    "name": "Pioneer 10",
+    "type": "Outer-planets probe",
+    "status": "silent",
+    "launchDate": "1972-03-02",
+    "distanceFromEarthAU": 140,
+    "position": [-72, 4, -20],
+    "color": "#c4b5fd",
+    "discovery": "First spacecraft to cross the asteroid belt and fly past Jupiter.",
+    "isSpotlight": false,
+    "text": {
+      "student": "Launched in 1972, Pioneer 10 was the first spacecraft to cross the asteroid belt and the first to fly past Jupiter, in December 1973. It carries a plaque showing a human couple and a map to Earth. Its last faint signal arrived on 22 January 2003, when it was about 80 AU away.",
+      "explorer": "Pioneer 10 was spin-stabilised and powered by RTGs. By 2003 its power had dropped too low to run the transmitter reliably, and contact was lost after a last weak signal on 22 January 2003 at about 80 AU. It is heading roughly toward the star Aldebaran, which it would pass in about two million years."
+    }
+  },
+  {
+    "id": "new-horizons",
+    "name": "New Horizons",
+    "type": "Kuiper Belt probe",
+    "status": "talking",
+    "launchDate": "2006-01-19",
+    "distanceFromEarthAU": 65,
+    "position": [46, 3, 34],
+    "color": "#f9a8d4",
+    "discovery": "First spacecraft to fly past Pluto, in 2015.",
+    "isSpotlight": false,
+    "text": {
+      "student": "Launched in 2006, New Horizons flew past Pluto on 14 July 2015 and revealed mountains of water ice, glaciers of nitrogen ice and the heart-shaped Tombaugh Regio. In 2019 it flew past Arrokoth, the most distant object ever explored up close at that time. It now studies the outer solar system.",
+      "explorer": "New Horizons got a gravity assist from Jupiter in February 2007, cutting years from its trip. Its 2015 flyby passed about 12,500 km from Pluto at roughly 14 km/s, and found a thin nitrogen atmosphere with layered hazes. On 1 January 2019 it flew past the contact binary Arrokoth. It now measures dust, plasma and the Sun's influence in the Kuiper Belt."
+    }
+  },
+  {
+    "id": "apollo-11",
+    "name": "Apollo 11 site",
+    "type": "Landing site",
+    "status": "complete",
+    "launchDate": "1969-07-16",
+    "distanceFromEarthAU": 0.00257,
+    "position": [0, 0.9, 0],
+    "anchor": "moon",
+    "color": "#e5e7eb",
+    "discovery": "First place humans walked on another world (20 July 1969).",
+    "isSpotlight": false,
+    "text": {
+      "student": "On 20 July 1969, the Apollo 11 lunar module Eagle landed in Mare Tranquillitatis. Neil Armstrong and Buzz Aldrin spent about two and a half hours walking outside while Michael Collins orbited above. They brought back about 21.5 kg of lunar samples.",
+      "explorer": "Eagle touched down at 20:17 UTC after Armstrong flew manually past a boulder field with only seconds of fuel to spare. The crew left a seismometer, a laser retroreflector that scientists still use to measure the Earth-Moon distance, and a commemorative plaque. The descent stage still sits at Tranquility Base."
+    }
+  },
+  {
+    "id": "curiosity",
+    "name": "Curiosity",
+    "type": "Mars rover",
+    "status": "talking",
+    "launchDate": "2011-11-26",
+    "distanceFromEarthAU": 1.5,
+    "position": [2, 0.8, 0.6],
+    "anchor": "mars",
+    "color": "#fb7185",
+    "discovery": "Found that Mars once had a lake that could have supported life.",
+    "isSpotlight": true,
+    "text": {
+      "student": "Curiosity landed in Gale Crater on 6 August 2012 using a rocket-powered sky crane. In 2013 it found clay minerals and signs of an ancient freshwater lake at Yellowknife Bay, with chemical ingredients needed for life. It is now climbing Mount Sharp, reading its layers like pages of Martian history.",
+      "explorer": "The 899 kg rover is powered by a plutonium-238 MMRTG and carries 10 instruments, including the ChemCam laser spectrometer and the SAM chemistry lab. SAM has detected organic molecules and seasonal changes in methane, while drill samples showed that key elements for life were present in a once-habitable lake."
+    }
+  },
+  {
+    "id": "perseverance",
+    "name": "Perseverance",
+    "type": "Mars rover",
+    "status": "talking",
+    "launchDate": "2020-07-30",
+    "distanceFromEarthAU": 1.5,
+    "position": [-1.6, 1.2, 1.4],
+    "anchor": "mars",
+    "color": "#f97316",
+    "discovery": "Collecting rock samples in Jezero Crater for return to Earth.",
+    "isSpotlight": false,
+    "text": {
+      "student": "Perseverance landed in Jezero Crater on 18 February 2021. It is exploring an ancient river delta and sealing rock samples into tubes for a future mission to return. It also tested MOXIE, a device that made breathable oxygen from the carbon dioxide in Mars's air.",
+      "explorer": "Perseverance carries 7 instruments, including SuperCam, PIXL, SHERLOC and MOXIE, which produced oxygen from the CO2-rich atmosphere. It lands using terrain-relative navigation and drives itself with AutoNav. Its sample cache includes the Cheyava Falls rock, collected in 2024 and flagged as a potential biosignature."
+    }
+  },
+  {
+    "id": "ingenuity",
+    "name": "Ingenuity",
+    "type": "Mars helicopter",
+    "status": "complete",
+    "launchDate": "2020-07-30",
+    "distanceFromEarthAU": 1.5,
+    "position": [-0.4, 2.2, -1.4],
+    "anchor": "mars",
+    "color": "#a3e635",
+    "discovery": "First powered, controlled flight on another planet (19 April 2021).",
+    "isSpotlight": false,
+    "text": {
+      "student": "Ingenuity was a 1.8 kg helicopter that proved flight is possible in Mars's thin air, which is about 1% as dense as Earth's. Its first flight lasted 39.1 seconds on 19 April 2021. After 72 flights it damaged a rotor blade, and NASA ended its mission in January 2024.",
+      "explorer": "To fly in air about 1% of Earth's density, Ingenuity used two counter-rotating carbon-fibre rotors spinning at roughly 2,400 rpm, about five times faster than a helicopter on Earth. It flew autonomously using vision-based navigation. Its technology demo became a scout for Perseverance and is shaping future Mars aircraft."
+    }
+  },
+  {
+    "id": "opportunity",
+    "name": "Opportunity",
+    "type": "Mars rover",
+    "status": "silent",
+    "launchDate": "2003-07-07",
+    "distanceFromEarthAU": 1.5,
+    "position": [1, -1.2, -2],
+    "anchor": "mars",
+    "color": "#fbbf24",
+    "discovery": "Proved Mars once had liquid water, and outlived its 90-day mission by 14 years.",
+    "isSpotlight": false,
+    "text": {
+      "student": "Opportunity landed in Meridiani Planum on 25 January 2004 and found hematite spheres nicknamed blueberries and rocks shaped by water. Designed for 90 days, it lasted until a global dust storm cut its power. Its last message arrived on 10 June 2018, and NASA declared the mission complete on 13 February 2019.",
+      "explorer": "Opportunity drove 45.16 km, farther than any other vehicle on another world, and found evidence of acidic groundwater at Meridiani. Wind often cleaned dust off its solar panels, extending its life. After the 2018 storm, NASA sent more than a thousand recovery commands without a response."
+    }
+  },
+  {
+    "id": "cassini",
+    "name": "Cassini",
+    "type": "Saturn orbiter",
+    "status": "complete",
+    "launchDate": "1997-10-15",
+    "distanceFromEarthAU": 9.5,
+    "position": [4.6, 1.6, 2.2],
+    "anchor": "saturn",
+    "color": "#5eead4",
+    "discovery": "Revealed Saturn's moons Titan and Enceladus as possible homes for life.",
+    "isSpotlight": true,
+    "text": {
+      "student": "Cassini launched in 1997, reached Saturn in 2004 and orbited it until 2017. It dropped the Huygens probe onto Titan in January 2005 and found water-ice geysers erupting from Enceladus. Its Grand Finale ended on 15 September 2017, when it plunged into Saturn's atmosphere to protect the moons from contamination.",
+      "explorer": "Cassini-Huygens, a NASA, ESA and ASI mission, made 294 orbits of Saturn and 127 close flybys of Titan. It sampled the Enceladus plume and found salty water, organic molecules and molecular hydrogen, signs of a subsurface ocean with hydrothermal activity. In the Grand Finale it dived between Saturn and its rings 22 times before its planned entry."
+    }
+  }
+]

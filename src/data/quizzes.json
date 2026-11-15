@@ -1,0 +1,113 @@
+{
+  "voyager-1": [
+    {
+      "id": "v1-q1",
+      "question": "In which year was Voyager 1 launched?",
+      "options": ["1969", "1977", "1989", "1997"],
+      "correctIndex": 1,
+      "explanation": "Voyager 1 launched on 5 September 1977."
+    },
+    {
+      "id": "v1-q2",
+      "question": "What is on the Golden Record carried by Voyager 1?",
+      "options": ["Moon rocks", "Sounds and images of Earth", "A map of Mars", "Seeds from Earth"],
+      "correctIndex": 1,
+      "explanation": "The Golden Record holds sounds, music and pictures from Earth, in case anyone finds it."
+    },
+    {
+      "id": "v1-q3",
+      "question": "In 2012 Voyager 1 became the first human-made object to enter what?",
+      "options": ["The asteroid belt", "Jupiter's atmosphere", "Interstellar space", "A black hole"],
+      "correctIndex": 2,
+      "explanation": "It crossed the heliopause in August 2012 and entered interstellar space."
+    },
+    {
+      "id": "v1-q4",
+      "question": "Which two planets did Voyager 1 fly past?",
+      "options": ["Mars and Venus", "Uranus and Neptune", "Jupiter and Saturn", "Earth and Mars"],
+      "correctIndex": 2,
+      "explanation": "Voyager 1 visited Jupiter in 1979 and Saturn in 1980. Voyager 2 went on to Uranus and Neptune."
+    },
+    {
+      "id": "v1-q5",
+      "question": "What provides electrical power to Voyager 1?",
+      "options": ["Large solar panels", "A nuclear fuel battery (RTG)", "Chemical fuel cells", "A wind turbine"],
+      "correctIndex": 1,
+      "explanation": "Sunlight is far too weak out there, so it uses radioisotope thermoelectric generators."
+    }
+  ],
+  "curiosity": [
+    {
+      "id": "cu-q1",
+      "question": "In which crater did Curiosity land?",
+      "options": ["Jezero Crater", "Gale Crater", "Tycho Crater", "Endeavour Crater"],
+      "correctIndex": 1,
+      "explanation": "Curiosity landed in Gale Crater. Jezero is where Perseverance landed."
+    },
+    {
+      "id": "cu-q2",
+      "question": "In which year did Curiosity land on Mars?",
+      "options": ["2004", "2012", "2018", "2021"],
+      "correctIndex": 1,
+      "explanation": "Curiosity touched down on 6 August 2012."
+    },
+    {
+      "id": "cu-q3",
+      "question": "How was Curiosity lowered onto the surface?",
+      "options": ["Airbags", "A giant parachute only", "A rocket-powered sky crane", "A helicopter"],
+      "correctIndex": 2,
+      "explanation": "It was too heavy for airbags, so a rocket-powered sky crane lowered it on cables."
+    },
+    {
+      "id": "cu-q4",
+      "question": "What did Curiosity find evidence of at Yellowknife Bay?",
+      "options": ["An ancient freshwater lake", "Living plants", "A buried spaceship", "Active volcanoes"],
+      "correctIndex": 0,
+      "explanation": "Mudstone there showed a lake with the chemical ingredients that life needs."
+    },
+    {
+      "id": "cu-q5",
+      "question": "Which mountain is Curiosity climbing?",
+      "options": ["Olympus Mons", "Mount Everest", "Mount Sharp", "Mount Tranquility"],
+      "correctIndex": 2,
+      "explanation": "Mount Sharp rises about 5 km from the floor of Gale Crater."
+    }
+  ],
+  "cassini": [
+    {
+      "id": "ca-q1",
+      "question": "Which planet did Cassini orbit?",
+      "options": ["Jupiter", "Saturn", "Uranus", "Neptune"],
+      "correctIndex": 1,
+      "explanation": "Cassini orbited Saturn from 2004 until 2017."
+    },
+    {
+      "id": "ca-q2",
+      "question": "Which probe did Cassini carry and drop onto Titan?",
+      "options": ["Galileo", "Huygens", "Pathfinder", "Philae"],
+      "correctIndex": 1,
+      "explanation": "The European Huygens probe landed on Titan on 14 January 2005."
+    },
+    {
+      "id": "ca-q3",
+      "question": "Which moon did Cassini find shooting geysers of water ice?",
+      "options": ["Enceladus", "Io", "Phobos", "Europa"],
+      "correctIndex": 0,
+      "explanation": "Jets from Enceladus's south pole come from a hidden subsurface ocean."
+    },
+    {
+      "id": "ca-q4",
+      "question": "How did the Cassini mission end?",
+      "options": ["It ran out of signal and was lost", "It crashed on Titan", "It flew out of the solar system", "It plunged into Saturn on purpose"],
+      "correctIndex": 3,
+      "explanation": "The planned plunge on 15 September 2017 kept Saturn's moons free from contamination."
+    },
+    {
+      "id": "ca-q5",
+      "question": "In which year did Cassini launch?",
+      "options": ["1977", "1985", "1997", "2004"],
+      "correctIndex": 2,
+      "explanation": "Cassini-Huygens launched on 15 October 1997 and arrived at Saturn in 2004."
+    }
+  ]
+}

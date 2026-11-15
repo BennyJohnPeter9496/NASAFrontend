@@ -1,0 +1,91 @@
+{
+  "levels": [
+    {
+      "id": "red-planet",
+      "title": "Level 1: The Red Planet",
+      "intro": "Three robots on and above Mars each left a mark. Open the right ones to find them.",
+      "clues": [
+        {
+          "id": "l1-flyer",
+          "riddle": "I was the first aircraft to fly on another world, and I was only meant to fly five times.",
+          "answer": "ingenuity",
+          "hint": "I hitched a ride on a rover that is hunting for signs of ancient life in Jezero Crater.",
+          "found": "Ingenuity flew 72 times and proved that powered flight works in Mars's thin air."
+        },
+        {
+          "id": "l1-marathon",
+          "riddle": "I was built to last 90 days, but I kept rolling for more than 14 years. A dust storm finally ended my story.",
+          "answer": "opportunity",
+          "hint": "I landed in Meridiani Planum in 2004 and my status is silent.",
+          "found": "Opportunity drove further than any other vehicle on another world."
+        },
+        {
+          "id": "l1-lake",
+          "riddle": "A sky crane lowered me into Gale Crater, where I found proof of an ancient lake.",
+          "answer": "curiosity",
+          "hint": "I am still talking and still climbing Mount Sharp.",
+          "found": "Curiosity showed that Mars once had a lake with the ingredients for life."
+        }
+      ],
+      "reward": "Mars mapped! The next level takes you to the edge of the solar system."
+    },
+    {
+      "id": "deep-space",
+      "title": "Level 2: Beyond the Planets",
+      "intro": "Far from the Sun, some of the oldest explorers still sail on. Find the travellers.",
+      "clues": [
+        {
+          "id": "l2-farthest",
+          "riddle": "I am the most distant human-made object, and I carry a golden record for anyone who finds me.",
+          "answer": "voyager-1",
+          "hint": "I launched in September 1977 and left the Sun's bubble in 2012.",
+          "found": "Voyager 1 is still sending data from interstellar space."
+        },
+        {
+          "id": "l2-twin",
+          "riddle": "My twin is more famous, but only I have ever visited both Uranus and Neptune.",
+          "answer": "voyager-2",
+          "hint": "I launched about two weeks before my twin.",
+          "found": "Voyager 2 flew past all four giant planets."
+        },
+        {
+          "id": "l2-plaque",
+          "riddle": "I carry a metal plaque showing humans and a map to Earth, but my radio went quiet in 2003.",
+          "answer": "pioneer-10",
+          "hint": "I was the first to cross the asteroid belt and to fly past Jupiter.",
+          "found": "Pioneer 10 is silent but still coasting through space."
+        }
+      ],
+      "reward": "Three travellers found. One last level: worlds with rings, ice and a footprint."
+    },
+    {
+      "id": "grand-tour",
+      "title": "Level 3: Rings, Ice and Footprints",
+      "intro": "The last clues cover Saturn, Pluto and the Moon. Find all three to win the treasure.",
+      "clues": [
+        {
+          "id": "l3-finale",
+          "riddle": "After 13 years at Saturn I dived into it on purpose, to keep its moons clean.",
+          "answer": "cassini",
+          "hint": "Titan's lander Huygens rode with me.",
+          "found": "Cassini's Grand Finale protected moons that may be habitable."
+        },
+        {
+          "id": "l3-heart",
+          "riddle": "I was the first to fly past Pluto and photograph its heart-shaped plain.",
+          "answer": "new-horizons",
+          "hint": "I launched in 2006 and I am still talking, out in the Kuiper Belt.",
+          "found": "New Horizons also visited the snowman-shaped Arrokoth."
+        },
+        {
+          "id": "l3-footprint",
+          "riddle": "Humans first stepped onto another world right here, in the Sea of Tranquility.",
+          "answer": "apollo-11",
+          "hint": "Look near the Moon, close to Earth.",
+          "found": "On 20 July 1969, Armstrong and Aldrin walked here."
+        }
+      ],
+      "reward": "You found the treasure: you have now met all the explorers that went furthest, flew first, or lasted longest."
+    }
+  ]
+}

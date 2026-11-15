@@ -1,0 +1,176 @@
+{
+  "id": "voyager-2-neptune",
+  "title": "Voyager 2: Neptune Run",
+  "intro": "It is August 1989. Voyager 2 has been flying for 12 years and is about to make the only visit humans have ever made to Neptune. You are the flight director. Five decisions stand between the spacecraft and a great flyby.",
+  "start": { "health": 60, "science": 0 },
+  "steps": [
+    {
+      "id": "light",
+      "title": "Faint light",
+      "situation": "Neptune gets roughly 900 times less sunlight than Earth, so the cameras need long exposures. But Voyager 2 is racing past at about 14 km/s. How do you take sharp pictures?",
+      "choices": [
+        {
+          "id": "long",
+          "text": "Use long exposures and hope for the best.",
+          "quality": "bad",
+          "effects": { "health": 0, "science": 5 },
+          "consequence": "The first frames come back smeared into streaks. You burn through precious flyby time on pictures nobody can use.",
+          "realLife": "Engineers knew this would happen, so they planned something smarter."
+        },
+        {
+          "id": "rotate",
+          "text": "Slowly turn the whole spacecraft to track the target during each exposure.",
+          "quality": "good",
+          "effects": { "health": -5, "science": 25 },
+          "consequence": "The thrusters nudge Voyager 2 so the camera follows Neptune while the shutter is open. The pictures come back sharp, at the cost of a little extra attitude-control fuel.",
+          "realLife": "The team used exactly this image motion compensation trick at Neptune."
+        },
+        {
+          "id": "skip",
+          "text": "Skip long exposures and rely on the particle and field instruments.",
+          "quality": "ok",
+          "effects": { "health": 5, "science": 10 },
+          "consequence": "Safe and steady. You learn about Neptune's magnetic field, but the world itself stays a blur, and the public gets few new pictures."
+        }
+      ]
+    },
+    {
+      "id": "signal",
+      "title": "A whisper from 4.4 billion km",
+      "situation": "Voyager 2's radio signal is very weak by the time it reaches Earth, and the data rate has dropped a lot. Neptune pictures will not fit through the link as they are.",
+      "choices": [
+        {
+          "id": "raw",
+          "text": "Send full-size, uncompressed images and accept what gets through.",
+          "quality": "bad",
+          "effects": { "health": 0, "science": 5 },
+          "consequence": "Much of the data is lost in the noise, and the few images that arrive are patchy."
+        },
+        {
+          "id": "compress",
+          "text": "Upload new code to compress images on board, and combine several Earth antennas into one big one.",
+          "quality": "good",
+          "effects": { "health": 0, "science": 20 },
+          "consequence": "Smaller image files and a larger combined dish squeeze far more pictures through the weak link. It is a gamble on code that has never run at this distance, but it works.",
+          "realLife": "Voyager 2 was reprogrammed in flight with data compression, and antennas around the world were linked together."
+        },
+        {
+          "id": "wait",
+          "text": "Hold the data on board and send it later at a slower, safer rate.",
+          "quality": "ok",
+          "effects": { "health": 0, "science": 8 },
+          "consequence": "Nothing is lost, but memory is limited. You have to throw away some observations to make room for new ones."
+        }
+      ]
+    },
+    {
+      "id": "path",
+      "title": "Neptune, or Triton?",
+      "situation": "Neptune's gravity will bend Voyager 2's path. Where you aim decides what you can see afterwards. Neptune's big moon Triton may be an odd, captured world worth a close look.",
+      "choices": [
+        {
+          "id": "equator",
+          "text": "Skim close to Neptune's equatorial cloud tops for the best views of the planet.",
+          "quality": "ok",
+          "effects": { "health": -10, "science": 10 },
+          "consequence": "Superb views of the planet, but the path bends Voyager 2 away from Triton and the strong radiation and dust add risk."
+        },
+        {
+          "id": "pole",
+          "text": "Pass over Neptune's north pole, using its gravity to swing toward Triton.",
+          "quality": "good",
+          "effects": { "health": 0, "science": 25 },
+          "consequence": "Voyager 2 sweeps over the pole, then curves south and passes Triton a few hours later, spotting icy plains and geysers of dark material.",
+          "realLife": "The real flyby passed about 5,000 km above Neptune's north pole and then flew past Triton."
+        },
+        {
+          "id": "far",
+          "text": "Keep a wide, safe distance from both.",
+          "quality": "ok",
+          "effects": { "health": 10, "science": 0 },
+          "consequence": "The spacecraft stays safe, but Neptune and Triton are only distant dots. After 12 years of travel, it feels like a waste."
+        }
+      ]
+    },
+    {
+      "id": "platform",
+      "title": "The sticky scan platform",
+      "situation": "The platform that points the cameras once jammed at Saturn. Triton is moving fast across the sky, and you need to keep the cameras on target.",
+      "choices": [
+        {
+          "id": "fast",
+          "text": "Slew the platform at full speed to chase Triton.",
+          "quality": "bad",
+          "effects": { "health": -20, "science": 15 },
+          "consequence": "The platform sticks again. You recover most of the pictures, but at a worrying cost to the spacecraft."
+        },
+        {
+          "id": "gentle",
+          "text": "Use slow, pre-planned moves with generous margins.",
+          "quality": "good",
+          "effects": { "health": 0, "science": 15 },
+          "consequence": "Boring but dependable. Each picture is on target, and the platform never jams.",
+          "realLife": "Careful, gentle platform moves were a big part of keeping the cameras working through the encounters."
+        },
+        {
+          "id": "freeze",
+          "text": "Lock the platform and turn the whole spacecraft to aim instead.",
+          "quality": "ok",
+          "effects": { "health": -5, "science": 10 },
+          "consequence": "It works, but slowly, and it uses extra thruster fuel. You miss some of the quickest views."
+        }
+      ]
+    },
+    {
+      "id": "power",
+      "title": "The power budget",
+      "situation": "Voyager 2's nuclear power source gives a little less each year. Running every instrument and heater at the same time during the flyby could overload it.",
+      "choices": [
+        {
+          "id": "all",
+          "text": "Turn everything on for the flyby.",
+          "quality": "bad",
+          "effects": { "health": -25, "science": 10 },
+          "consequence": "The power bus sags and protective systems trip. You lose some instruments, and the spacecraft's health takes a hit."
+        },
+        {
+          "id": "prioritise",
+          "text": "Prioritise: switch off non-essential heaters and instruments for the critical hours.",
+          "quality": "good",
+          "effects": { "health": -5, "science": 15 },
+          "consequence": "You keep the cameras and key instruments running and the voltage steady. The spacecraft stays a little colder, but healthy.",
+          "realLife": "Voyager's team still switches off instruments and heaters, one at a time, to stretch its power."
+        },
+        {
+          "id": "cameras-off",
+          "text": "Turn the cameras off to save power.",
+          "quality": "ok",
+          "effects": { "health": 5, "science": 0 },
+          "consequence": "Power is plentiful, and the best pictures of the mission are never taken."
+        }
+      ]
+    }
+  ],
+  "endings": [
+    {
+      "min": 130,
+      "title": "Triumph at Neptune",
+      "text": "Sharp pictures, a daring Triton flyby and a healthy spacecraft. Voyager 2 sails on toward interstellar space, and the whole world sees Neptune for the first time."
+    },
+    {
+      "min": 110,
+      "title": "Mission success",
+      "text": "A strong flyby. A few things could have been bolder, but Neptune and Triton are in the history books."
+    },
+    {
+      "min": 80,
+      "title": "A mixed flyby",
+      "text": "Voyager 2 survived and you learned a lot, but some of the best chances slipped by. Mission control will be debating this one for years."
+    },
+    {
+      "min": 0,
+      "title": "A hard lesson",
+      "text": "The spacecraft is badly damaged and the pictures are few. Even so, every engineer has learned something. Try again with a different plan."
+    }
+  ]
+}

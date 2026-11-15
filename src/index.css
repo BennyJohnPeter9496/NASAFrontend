@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body,
+  #root {
+    height: 100%;
+    margin: 0;
+    background: #04060f;
+    overscroll-behavior: none;
+  }
+  body {
+    @apply font-sans antialiased;
+  }
+  :focus-visible {
+    outline: 2px solid #7dd3fc;
+    outline-offset: 2px;
+  }
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.25) transparent;
+  }
+  canvas {
+    touch-action: none;
+    outline: none;
+  }
+}
+
+@layer components {
+  .glass {
+    @apply border border-white/10 bg-slate-900/60 shadow-2xl shadow-black/40 backdrop-blur-xl;
+  }
+  .btn-primary {
+    @apply rounded-full bg-sky-400 px-5 py-2.5 text-sm font-semibold text-slate-950 transition hover:bg-sky-300 active:scale-[0.97] disabled:cursor-not-allowed disabled:opacity-40;
+  }
+  .btn-ghost {
+    @apply rounded-full border border-white/15 bg-white/5 px-4 py-2.5 text-sm font-medium text-slate-100 transition hover:bg-white/10 active:scale-[0.97] disabled:cursor-not-allowed disabled:opacity-40;
+  }
+  .btn-icon {
+    @apply flex h-9 w-9 items-center justify-center rounded-full bg-white/5 text-slate-300 transition hover:bg-white/15 hover:text-white;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Brand/navigation for the junior explorer experience. */
+.sg-main-header { background: linear-gradient(180deg,rgba(6,10,31,.92),rgba(6,10,31,.69) 75%,transparent); }
+.sg-brand { display: flex; gap: 11px; align-items: center; color: white; text-align: left; }
+.sg-brand-mark { width: 39px; height: 39px; flex: none; border-radius: 13px; display: grid; place-items: center; font-size: 26px; color: #ebfaff; background: linear-gradient(145deg,#a67dff,#4f3eab 60%,#302a68); box-shadow: 0 5px 25px rgba(145,101,255,.38); }
+.sg-brand-text strong { display: block; font-size: 22px; line-height: 1.05; font-weight: 900; letter-spacing: -.075em; }
+.sg-brand-text strong > span:first-child { color: #aff5f3; }
+.sg-brand-star { color: #fdd797; font-size: 11px; margin-left: 2px; vertical-align: super; }
+.sg-brand-text small { display: block; letter-spacing: .15em; margin-top: 4px; font-size: 8px; font-weight: 900; color: #a8b9d9; }
+.sg-top-links > button, .sg-top-action { color: #cfdaf7; background: rgba(255,255,255,.055); border: 1px solid rgba(255,255,255,.13); padding: 8px 12px; border-radius: 30px; font-size: 12px; font-weight: 800; transition: background .2s, color .2s; white-space: nowrap; }
+.sg-top-links > button:hover, .sg-top-action:hover { background: rgba(175,156,248,.2); color: white; }
+.sg-passport { display: flex; align-items: center; gap: 4px; }
+.sg-badge-count { background: rgba(233,195,106,.22); color: #ffe19d; border-radius: 30px; padding: 1px 6px; font-size: 10px; }
+.sg-top-ask { display: flex; align-items: center; gap: 8px; border-radius: 30px; background: linear-gradient(100deg, #adf2f2, #c6a9ff); padding: 10px 15px; font-size: 12px; font-weight: 900; color: #17234a; box-shadow: 0 7px 25px rgba(142,182,244,.22); transition: transform .2s, filter .2s; white-space: nowrap; }
+.sg-top-ask:hover { transform: translateY(-2px); filter: brightness(1.12); }
+@media(max-width:480px) { .sg-brand-mark { width: 32px; height: 32px; font-size: 21px; } .sg-brand-text strong { font-size: 19px; } .sg-brand-text small { font-size: 7px; } .sg-top-ask { padding: 9px; } .sg-passport { padding: 7px; } }
