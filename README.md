@@ -72,6 +72,8 @@ The frontend can be hosted on **Azure Static Web Apps**; the existing API stays 
 
 The workflow publishes only the frontend, not the backend. The existing [runtime API configuration](public/app-config.json) is copied into the build unchanged. Creating the Azure resource, adding the GitHub secret, and allowing the frontend origin on the backend are required before the site is fully usable.
 
+If Azure generates its own workflow, its `output_location` must be `dist`, not `build`, because this project uses Vite. The [Azure-generated workflow](.github/workflows/azure-static-web-apps-ambitious-coast-081169d0f.yml) uses Oryx to build and supports pull-request previews with its Azure-generated deployment secret. Both workflows deploy on pushes to `main`; disable one in GitHub Actions if they target the same Static Web App to avoid duplicate deployments.
+
 ## Safety and accuracy
 
 The app presents generated narratives as drafts, with NASA reference links. NASA Image Library media is supporting imagery, **not** a live view or proof of current physical condition. Never put an Azure OpenAI key in the frontend config; configure it in the backend server environment.
